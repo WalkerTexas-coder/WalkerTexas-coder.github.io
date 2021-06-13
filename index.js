@@ -15,11 +15,11 @@ if (trap1Location === treasureLocation){
      if (treasureLocation === location){
          document.getElementById(location).innerHTML = "👑";
          
-         alert ("YOU WIN! YOU FOUND THE TREASURE")
+         document.getElementById("arg").innerHTML = "YOU WIN! YOU FOUND THE TREASURE"
      }
      else if (location === trap1Location) {
        document.getElementById(location).innerHTML = "☠️";
-       alert("You fell in a trap!  Try Again?");
+       document.getElementById("arg").innerHTML = "You fell in a trap!  Try Again?";
      }
      else {
        document.getElementById(location).innerHTML = "✘";
