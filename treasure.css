@@ -1,6 +1,4 @@
-# WalkerTexas-coder.github.io
-A visible HTML and CSS project
-{
+*{
   font-family: 'Roboto Slab', serif;
 }
 
@@ -41,7 +39,7 @@ h1{
   text-align: center;
 }
 
-#rules-section{
+#explainer{
   color: #cce0ff;
   text-shadow: 2px 2px #000;
   font-size: 18px;
@@ -49,7 +47,7 @@ h1{
   list-style-position: inside;
 }
 
-#gameboard{
+#board{
   display: flex;
   justify-content: center;
   text-align: center;
@@ -104,4 +102,4 @@ button:hover{
 
 a:hover{
   color: #cce0ff;
-} */
+}
